@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20419946245FF710001309E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20419945245FF710001309E4 /* AppDelegate.swift */; };
+		20419948245FF710001309E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20419947245FF710001309E4 /* SceneDelegate.swift */; };
+		2041994A245FF710001309E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20419949245FF710001309E4 /* ViewController.swift */; };
+		2041994D245FF710001309E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2041994B245FF710001309E4 /* Main.storyboard */; };
+		2041994F245FF717001309E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2041994E245FF717001309E4 /* Assets.xcassets */; };
+		20419952245FF717001309E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20419950245FF717001309E4 /* LaunchScreen.storyboard */; };
+		2041995D245FF717001309E4 /* Homework_6__PollTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2041995C245FF717001309E4 /* Homework_6__PollTests.swift */; };
+		20419968245FF717001309E4 /* Homework_6__PollUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20419967245FF717001309E4 /* Homework_6__PollUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20419959245FF717001309E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2041993A245FF710001309E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20419941245FF710001309E4;
+			remoteInfo = "Homework 6: Poll";
+		};
+		20419964245FF717001309E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2041993A245FF710001309E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20419941245FF710001309E4;
+			remoteInfo = "Homework 6: Poll";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20419942245FF710001309E4 /* Homework 6: Poll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Homework 6: Poll.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20419945245FF710001309E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		20419947245FF710001309E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		20419949245FF710001309E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2041994C245FF710001309E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2041994E245FF717001309E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20419951245FF717001309E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20419953245FF717001309E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20419958245FF717001309E4 /* Homework 6: PollTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Homework 6: PollTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2041995C245FF717001309E4 /* Homework_6__PollTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homework_6__PollTests.swift; sourceTree = "<group>"; };
+		2041995E245FF717001309E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20419963245FF717001309E4 /* Homework 6: PollUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Homework 6: PollUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20419967245FF717001309E4 /* Homework_6__PollUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homework_6__PollUITests.swift; sourceTree = "<group>"; };
+		20419969245FF717001309E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2041993F245FF710001309E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20419955245FF717001309E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20419960245FF717001309E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20419939245FF710001309E4 = {
+			isa = PBXGroup;
+			children = (
+				20419944245FF710001309E4 /* Homework 6: Poll */,
+				2041995B245FF717001309E4 /* Homework 6: PollTests */,
+				20419966245FF717001309E4 /* Homework 6: PollUITests */,
+				20419943245FF710001309E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20419943245FF710001309E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20419942245FF710001309E4 /* Homework 6: Poll.app */,
+				20419958245FF717001309E4 /* Homework 6: PollTests.xctest */,
+				20419963245FF717001309E4 /* Homework 6: PollUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20419944245FF710001309E4 /* Homework 6: Poll */ = {
+			isa = PBXGroup;
+			children = (
+				20419945245FF710001309E4 /* AppDelegate.swift */,
+				20419947245FF710001309E4 /* SceneDelegate.swift */,
+				20419949245FF710001309E4 /* ViewController.swift */,
+				2041994B245FF710001309E4 /* Main.storyboard */,
+				2041994E245FF717001309E4 /* Assets.xcassets */,
+				20419950245FF717001309E4 /* LaunchScreen.storyboard */,
+				20419953245FF717001309E4 /* Info.plist */,
+			);
+			path = "Homework 6: Poll";
+			sourceTree = "<group>";
+		};
+		2041995B245FF717001309E4 /* Homework 6: PollTests */ = {
+			isa = PBXGroup;
+			children = (
+				2041995C245FF717001309E4 /* Homework_6__PollTests.swift */,
+				2041995E245FF717001309E4 /* Info.plist */,
+			);
+			path = "Homework 6: PollTests";
+			sourceTree = "<group>";
+		};
+		20419966245FF717001309E4 /* Homework 6: PollUITests */ = {
+			isa = PBXGroup;
+			children = (
+				20419967245FF717001309E4 /* Homework_6__PollUITests.swift */,
+				20419969245FF717001309E4 /* Info.plist */,
+			);
+			path = "Homework 6: PollUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20419941245FF710001309E4 /* Homework 6: Poll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2041996C245FF717001309E4 /* Build configuration list for PBXNativeTarget "Homework 6: Poll" */;
+			buildPhases = (
+				2041993E245FF710001309E4 /* Sources */,
+				2041993F245FF710001309E4 /* Frameworks */,
+				20419940245FF710001309E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Homework 6: Poll";
+			productName = "Homework 6: Poll";
+			productReference = 20419942245FF710001309E4 /* Homework 6: Poll.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20419957245FF717001309E4 /* Homework 6: PollTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2041996F245FF717001309E4 /* Build configuration list for PBXNativeTarget "Homework 6: PollTests" */;
+			buildPhases = (
+				20419954245FF717001309E4 /* Sources */,
+				20419955245FF717001309E4 /* Frameworks */,
+				20419956245FF717001309E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2041995A245FF717001309E4 /* PBXTargetDependency */,
+			);
+			name = "Homework 6: PollTests";
+			productName = "Homework 6: PollTests";
+			productReference = 20419958245FF717001309E4 /* Homework 6: PollTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		20419962245FF717001309E4 /* Homework 6: PollUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20419972245FF717001309E4 /* Build configuration list for PBXNativeTarget "Homework 6: PollUITests" */;
+			buildPhases = (
+				2041995F245FF717001309E4 /* Sources */,
+				20419960245FF717001309E4 /* Frameworks */,
+				20419961245FF717001309E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20419965245FF717001309E4 /* PBXTargetDependency */,
+			);
+			name = "Homework 6: PollUITests";
+			productName = "Homework 6: PollUITests";
+			productReference = 20419963245FF717001309E4 /* Homework 6: PollUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2041993A245FF710001309E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Olivia Gennaro";
+				TargetAttributes = {
+					20419941245FF710001309E4 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					20419957245FF717001309E4 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 20419941245FF710001309E4;
+					};
+					20419962245FF717001309E4 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 20419941245FF710001309E4;
+					};
+				};
+			};
+			buildConfigurationList = 2041993D245FF710001309E4 /* Build configuration list for PBXProject "Homework 6: Poll" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20419939245FF710001309E4;
+			productRefGroup = 20419943245FF710001309E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20419941245FF710001309E4 /* Homework 6: Poll */,
+				20419957245FF717001309E4 /* Homework 6: PollTests */,
+				20419962245FF717001309E4 /* Homework 6: PollUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20419940245FF710001309E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20419952245FF717001309E4 /* LaunchScreen.storyboard in Resources */,
+				2041994F245FF717001309E4 /* Assets.xcassets in Resources */,
+				2041994D245FF710001309E4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20419956245FF717001309E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20419961245FF717001309E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2041993E245FF710001309E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2041994A245FF710001309E4 /* ViewController.swift in Sources */,
+				20419946245FF710001309E4 /* AppDelegate.swift in Sources */,
+				20419948245FF710001309E4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20419954245FF717001309E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2041995D245FF717001309E4 /* Homework_6__PollTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2041995F245FF717001309E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20419968245FF717001309E4 /* Homework_6__PollUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2041995A245FF717001309E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20419941245FF710001309E4 /* Homework 6: Poll */;
+			targetProxy = 20419959245FF717001309E4 /* PBXContainerItemProxy */;
+		};
+		20419965245FF717001309E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20419941245FF710001309E4 /* Homework 6: Poll */;
+			targetProxy = 20419964245FF717001309E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2041994B245FF710001309E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2041994C245FF710001309E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20419950245FF717001309E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20419951245FF717001309E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2041996A245FF717001309E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2041996B245FF717001309E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2041996D245FF717001309E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UR5D43B664;
+				INFOPLIST_FILE = "Homework 6: Poll/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Olivia.Gennaro.Homework-6--Poll";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2041996E245FF717001309E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UR5D43B664;
+				INFOPLIST_FILE = "Homework 6: Poll/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Olivia.Gennaro.Homework-6--Poll";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		20419970245FF717001309E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UR5D43B664;
+				INFOPLIST_FILE = "Homework 6: PollTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Olivia.Gennaro.Homework-6--PollTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Homework 6: Poll.app/Homework 6: Poll";
+			};
+			name = Debug;
+		};
+		20419971245FF717001309E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UR5D43B664;
+				INFOPLIST_FILE = "Homework 6: PollTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Olivia.Gennaro.Homework-6--PollTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Homework 6: Poll.app/Homework 6: Poll";
+			};
+			name = Release;
+		};
+		20419973245FF717001309E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UR5D43B664;
+				INFOPLIST_FILE = "Homework 6: PollUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Olivia.Gennaro.Homework-6--PollUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Homework 6: Poll";
+			};
+			name = Debug;
+		};
+		20419974245FF717001309E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UR5D43B664;
+				INFOPLIST_FILE = "Homework 6: PollUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Olivia.Gennaro.Homework-6--PollUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Homework 6: Poll";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2041993D245FF710001309E4 /* Build configuration list for PBXProject "Homework 6: Poll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2041996A245FF717001309E4 /* Debug */,
+				2041996B245FF717001309E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2041996C245FF717001309E4 /* Build configuration list for PBXNativeTarget "Homework 6: Poll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2041996D245FF717001309E4 /* Debug */,
+				2041996E245FF717001309E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2041996F245FF717001309E4 /* Build configuration list for PBXNativeTarget "Homework 6: PollTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20419970245FF717001309E4 /* Debug */,
+				20419971245FF717001309E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20419972245FF717001309E4 /* Build configuration list for PBXNativeTarget "Homework 6: PollUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20419973245FF717001309E4 /* Debug */,
+				20419974245FF717001309E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2041993A245FF710001309E4 /* Project object */;
+}
